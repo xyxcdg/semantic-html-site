@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="墨记 · 极简云笔记，专注写作与思考。" />
+  <title>墨记 · 极简云笔记</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 页头：Logo + 主导航 -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">墨</span>
+        <span class="brand-name">墨记</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <ul>
+          <li><a href="#features">功能</a></li>
+          <li><a href="#showcase">界面</a></li>
+          <li><a href="#pricing">价格</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-ghost header-cta" href="#pricing">免费开始</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 首屏 Hero 区 -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">极简 · 云同步 · Markdown</p>
+          <h1 id="hero-title">把想法，安静地写下来。</h1>
+          <p class="lead">
+            墨记是一款专注写作的极简云笔记。没有多余打扰，只有你、光标，
+            以及随时同步到每一台设备的文字。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pricing">立即免费使用</a>
+            <a class="btn btn-text" href="#showcase">看看界面 →</a>
+          </div>
+        </div>
+        <figure class="hero-figure" aria-label="墨记编辑界面预览">
+          <div class="mock-window">
+            <div class="mock-bar"><span></span><span></span><span></span></div>
+            <pre class="mock-code"># 今日随想
+
+> 写作是把混沌的念头，整理成可以被重读的句子。
+
+- [x] 记录灵感
+- [ ] 完成初稿
+- [ ] 发布到博客</pre>
+          </div>
+          <figcaption>极简编辑器，专注一个字：写。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 功能特性区 -->
+    <section id="features" class="features" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="features-title">为写作者做的三件小事</h2>
+          <p>去繁就简，把复杂留给自己，把清爽留给你。</p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✦</div>
+            <h3>全端云同步</h3>
+            <p>手机、平板、电脑实时同步，灵感不因切换设备而中断。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✍</div>
+            <h3>纯净 Markdown</h3>
+            <p>所见即所得地书写，专注内容本身，排版交给规则。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🔒</div>
+            <h3>本地优先</h3>
+            <p>数据先存本地，断网也能写，联网后自动加密备份。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 界面展示 + 侧栏 -->
+    <section id="showcase" class="showcase" aria-labelledby="showcase-title">
+      <div class="container showcase-inner">
+        <div class="showcase-main">
+          <h2 id="showcase-title">一个安静的写作空间</h2>
+          <p>
+            打开墨记，你只会看到一个干净的光标。左边是你的笔记本，右边是正文，
+            没有弹窗、没有红点，只有文字在页面上缓缓生长。
+          </p>
+          <ul class="check-list">
+            <li>快捷键唤起，一秒进入写作状态</li>
+            <li>双向链接，把零散的笔记连成网</li>
+            <li>一键导出 PDF / 图片 / 长图</li>
+          </ul>
+        </div>
+        <aside class="showcase-aside" aria-label="使用数据">
+          <h3>被写作者信任</h3>
+          <dl class="stats">
+            <div><dt>活跃作者</dt><dd>120,000+</dd></div>
+            <div><dt>累计字数</dt><dd>3.2 亿</dd></div>
+            <div><dt>平均评分</dt><dd>4.9 / 5.0</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 价格区 -->
+    <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="pricing-title">简单透明的价格</h2>
+          <p>免费版已经足够好用，需要更多空间时再升级。</p>
+        </header>
+        <div class="price-grid">
+          <article class="price-card">
+            <h3>免费版</h3>
+            <p class="price"><strong>¥0</strong> / 永久</p>
+            <ul>
+              <li>3 个笔记本</li>
+              <li>跨 3 台设备同步</li>
+              <li>Markdown 编辑器</li>
+            </ul>
+            <a class="btn btn-ghost" href="#">开始使用</a>
+          </article>
+          <article class="price-card price-card--featured">
+            <h3>专业版</h3>
+            <p class="price"><strong>¥18</strong> / 月</p>
+            <ul>
+              <li>无限笔记本</li>
+              <li>无限设备同步</li>
+              <li>历史版本回溯</li>
+              <li>导出无水印</li>
+            </ul>
+            <a class="btn btn-primary" href="#">升级专业版</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <h2 id="faq-title">常见问题</h2>
+        <details>
+          <summary>数据安全吗？</summary>
+          <p>笔记先保存到本地，云端传输与存储均为端到端加密。</p>
+        </details>
+        <details>
+          <summary>支持离线使用吗？</summary>
+          <p>支持。断网时照常书写，网络恢复后自动增量同步。</p>
+        </details>
+        <details>
+          <summary>可以导出吗？</summary>
+          <p>可以一键导出 Markdown、PDF 与图片，数据永远属于你。</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="copyright">© 2026 墨记 · 由语义化 HTML5 标签构建</p>
+      <nav aria-label="页脚导航">
+        <ul>
+          <li><a href="#top">返回顶部</a></li>
+          <li><a href="#features">功能</a></li>
+          <li><a href="#pricing">价格</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
